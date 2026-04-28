@@ -1,36 +1,59 @@
 # Getting Started with the Angular TreeView Component
 
-A quick start project that shows how to add Syncfusion Angular TreeView component to the Angular App and bind local &amp; remote data sources. This project also includes a code snippet to enable checkboxes, node editing, drag and drop a node and select multiple nodes at a time.
+**Repository Description**  
+This repository contains a quick‑start Angular sample that demonstrates how to integrate the Syncfusion Angular TreeView component into an Angular application.
 
-Examples: https://ej2.syncfusion.com/angular/demos/#/bootstrap5/treeview/default 
+The sample shows how to bind both local and remote data sources to the TreeView and includes examples for enabling checkboxes, node editing, drag‑and‑drop support, and selecting multiple tree nodes.
 
-Documentation: https://ej2.syncfusion.com/angular/documentation/treeview/getting-started/     
+## Project Overview
+The purpose of this project is to help developers understand the basic setup and functionality of the Syncfusion Angular TreeView component. It serves as a reference implementation for displaying and managing hierarchical data structures in Angular applications.
 
-# Project pre-requisites
+## Features
+- Integration of the Syncfusion Angular TreeView component  
+- Bind hierarchical data from local data sources  
+- Load TreeView data from remote service endpoints  
+- Enable checkbox selection for nodes  
+- Support node editing and drag‑and‑drop operations  
+- Multiple node selection capabilities  
 
-Make sure that you have the compatible versions of TypeScript and Angular in your machine before starting to work on this project.
+## Examples
+- Online demo:  
+  https://ej2.syncfusion.com/angular/demos/#/bootstrap5/treeview/default
 
-Angular 4+
+## Prerequisites
+Ensure the following requirements are met before running this project:
+- Angular 4 or later  
+- TypeScript 2.6 or later  
+- NodeJS  
+- Visual Studio Code  
 
-TypeScript 2.6+
+## Installation and Running the Application
 
-# How to run this application?
+1. Clone the Repository.
+```bash
+git clone https://github.com/SyncfusionExamples/getting-started-with-the-angular-treeview-component.git
+```
+2. Install all required Angular packages using:`npm install`.
+3. Start the Angular development server:`ng serve`.
+4. Open your browser and navigate to:`http://localhost:4200/`.
+5. The application will automatically reload if you modify any source files.
 
-To run this application, you need to first clone the getting-started-with-the-angular-treeview-component repository and then navigate to its appropriate path where it has been in your system.
+## Usage
+Run the application to interact with the TreeView component. You can expand and collapse nodes, select multiple items, enable checkboxes, reorder nodes using drag‑and‑drop, and edit node labels based on the configured options.
 
-To do so, open the command prompt and run the below commands one after the other.
+## Documentation
+- General Syncfusion documentation:
+https://help.syncfusion.com/
+- Angular Introduction:
+https://ej2.syncfusion.com/angular/documentation/introduction
+- Angular TreeView Getting Started:
+https://ej2.syncfusion.com/angular/documentation/treeview/getting-started
 
-git clone angular-example
+## Troubleshooting
+- Verify that compatible versions of Angular and TypeScript are installed.
+- Re‑run npm install if dependency installation fails.
+- Restart the development server if UI changes are not reflected.
+- Check the browser console for rendering or data‑binding errors.
 
-cd angular-example
-
-# Installing
-
-Once done with downloading, next you need to install the necessary packages required to run this application locally. The npm install command will install all the needed angular packages into your current project and to do so, run the below command.
-
-npm install
-
-# Running on development server
-
-Run ng serve command for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
-
+## Support
+For detailed API references, configuration options, and advanced usage examples, refer to the Syncfusion Angular TreeView documentation links provided above.
